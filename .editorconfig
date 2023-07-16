@@ -1,2 +1,6 @@
 # Editor configuration, see https://editorconfig.org
 root = true
+
+[*.kt]
+charset = utf-8
+end_of_line = lf
