@@ -4,3 +4,5 @@ buildscript {
         google()
         maven(url = "https://plugins.gradle.org/m2/")
     }
+    dependencies {
+        classpath(libs.gradle.agp)
