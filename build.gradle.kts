@@ -6,3 +6,4 @@ buildscript {
     }
     dependencies {
         classpath(libs.gradle.agp)
+        classpath(libs.gradle.kotlin)
