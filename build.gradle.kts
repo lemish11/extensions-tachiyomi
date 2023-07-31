@@ -7,3 +7,6 @@ buildscript {
     dependencies {
         classpath(libs.gradle.agp)
         classpath(libs.gradle.kotlin)
+        classpath(libs.gradle.serialization)
+        classpath(libs.gradle.kotlinter)
+    }
