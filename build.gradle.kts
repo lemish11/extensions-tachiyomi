@@ -10,3 +10,6 @@ buildscript {
         classpath(libs.gradle.serialization)
         classpath(libs.gradle.kotlinter)
     }
+}
+
+allprojects {
