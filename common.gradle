@@ -10,3 +10,6 @@ android {
             assets.srcDirs = ['assets']
         }
         release {
+            manifest.srcFile "AndroidManifest.xml"
+        }
+        debug {
