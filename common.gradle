@@ -13,3 +13,6 @@ android {
             manifest.srcFile "AndroidManifest.xml"
         }
         debug {
+            manifest.srcFile "AndroidManifest.xml"
+        }
+    }
