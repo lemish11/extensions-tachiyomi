@@ -16,3 +16,6 @@ android {
             manifest.srcFile "AndroidManifest.xml"
         }
     }
+
+    defaultConfig {
+        minSdkVersion AndroidConfig.minSdk
