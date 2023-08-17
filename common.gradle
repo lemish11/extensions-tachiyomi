@@ -21,3 +21,4 @@ android {
         minSdkVersion AndroidConfig.minSdk
         targetSdkVersion AndroidConfig.targetSdk
         applicationIdSuffix pkgNameSuffix
+        versionCode extVersionCode
