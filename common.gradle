@@ -22,3 +22,4 @@ android {
         targetSdkVersion AndroidConfig.targetSdk
         applicationIdSuffix pkgNameSuffix
         versionCode extVersionCode
+        versionName project.ext.properties.getOrDefault("libVersion", "1.4") + ".$extVersionCode"
