@@ -24,3 +24,4 @@ android {
         versionCode extVersionCode
         versionName project.ext.properties.getOrDefault("libVersion", "1.4") + ".$extVersionCode"
         setProperty("archivesBaseName", "tachiyomi-$pkgNameSuffix-v$versionName")
+        def readmes = project.projectDir.listFiles({ File file ->
