@@ -26,3 +26,4 @@ android {
         setProperty("archivesBaseName", "tachiyomi-$pkgNameSuffix-v$versionName")
         def readmes = project.projectDir.listFiles({ File file ->
             file.name == "README.md" || file.name == "CHANGELOG.md"
+        } as FileFilter)
