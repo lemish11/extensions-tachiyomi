@@ -27,3 +27,5 @@ android {
         def readmes = project.projectDir.listFiles({ File file ->
             file.name == "README.md" || file.name == "CHANGELOG.md"
         } as FileFilter)
+        def hasReadme = readmes != null && readmes.any { File file ->
+            file.name.startsWith("README")
