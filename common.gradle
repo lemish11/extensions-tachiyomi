@@ -29,3 +29,5 @@ android {
         } as FileFilter)
         def hasReadme = readmes != null && readmes.any { File file ->
             file.name.startsWith("README")
+        }
+        def hasChangelog = readmes != null && readmes.any { File file ->
