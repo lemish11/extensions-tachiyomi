@@ -33,3 +33,4 @@ android {
         def hasChangelog = readmes != null && readmes.any { File file ->
             file.name.startsWith("CHANGELOG")
         }
+        manifestPlaceholders = [
