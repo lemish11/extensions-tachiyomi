@@ -34,3 +34,5 @@ android {
             file.name.startsWith("CHANGELOG")
         }
         manifestPlaceholders = [
+                appName : "Tachiyomi: $extName",
+                extClass: extClass,
