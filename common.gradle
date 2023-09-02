@@ -36,3 +36,4 @@ android {
         manifestPlaceholders = [
                 appName : "Tachiyomi: $extName",
                 extClass: extClass,
+               extFactory: project.ext.properties.getOrDefault("extFactory", ""),
