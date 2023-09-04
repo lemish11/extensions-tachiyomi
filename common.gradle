@@ -39,3 +39,6 @@ android {
                extFactory: project.ext.properties.getOrDefault("extFactory", ""),
                 nsfw: project.ext.properties.getOrDefault("isNsfw", false) ? 1 : 0,
                 hasReadme: hasReadme ? 1 : 0,
+               hasChangelog: hasChangelog ? 1 : 0,
+        ]
+    }
