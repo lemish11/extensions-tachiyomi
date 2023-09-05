@@ -42,3 +42,6 @@ android {
                hasChangelog: hasChangelog ? 1 : 0,
         ]
     }
+
+    signingConfigs {
+        release {
