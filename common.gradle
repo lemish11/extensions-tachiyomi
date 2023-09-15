@@ -60,3 +60,7 @@ android {
     }
 
     dependenciesInfo {
+        includeInApk = false
+    }
+
+    buildFeatures {
