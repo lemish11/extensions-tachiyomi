@@ -64,3 +64,4 @@ android {
     }
 
     buildFeatures {
+        // Disable unused AGP features
