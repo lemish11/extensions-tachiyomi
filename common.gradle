@@ -65,3 +65,6 @@ android {
 
     buildFeatures {
         // Disable unused AGP features
+        aidl false
+        renderScript false
+        resValues false
