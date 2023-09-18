@@ -68,3 +68,7 @@ android {
         aidl false
         renderScript false
         resValues false
+        shaders false
+    }
+
+    compileOptions {
