@@ -101,3 +101,5 @@ dependencies {
 
 preBuild.dependsOn(lintKotlin)
 lintKotlin.dependsOn(formatKotlin)
+    kotlinOptions {
+        jvmTarget = JavaVersion.VERSION_1_8.toString()
