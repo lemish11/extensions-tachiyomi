@@ -107,3 +107,5 @@ lintKotlin.dependsOn(formatKotlin)
     }
 
     kotlinter {
+        experimentalRules = true
+        disabledRules = [
