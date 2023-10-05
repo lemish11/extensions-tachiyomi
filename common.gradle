@@ -109,3 +109,5 @@ lintKotlin.dependsOn(formatKotlin)
     kotlinter {
         experimentalRules = true
         disabledRules = [
+            "experimental:argument-list-wrapping", // Doesn't play well with Android Studio
+            "experimental:comment-wrapping",
