@@ -116,3 +116,7 @@ lintKotlin.dependsOn(formatKotlin)
 }
 
 repositories {
+    mavenCentral()
+}
+
+dependencies {
