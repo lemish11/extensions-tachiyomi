@@ -123,3 +123,5 @@ dependencies {
     implementation(project(":core"))
     compileOnly(libs.bundles.common)
 }
+
+preBuild.dependsOn(lintKotlin)
