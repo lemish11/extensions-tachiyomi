@@ -125,3 +125,4 @@ dependencies {
 }
 
 preBuild.dependsOn(lintKotlin)
+lintKotlin.dependsOn(formatKotlin)
